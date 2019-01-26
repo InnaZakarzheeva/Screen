@@ -3,7 +3,7 @@ import time
 import imageio
 import sys, os
 
-save_folder = "C:\\Users\\Lenovo\\Desktop\\screen\\"
+save_folder = "E:\\screen\\"
 num_screens = 12 
 gif_writer = imageio.get_writer(save_folder + "anim.gif", mode='I', duration = 0.7)
 
